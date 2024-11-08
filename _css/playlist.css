@@ -1,0 +1,44 @@
+
+body {
+    background-color: black;
+}
+
+html {
+    height: 100vh;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 2%;
+}
+
+header.rolagem {
+    opacity: 0;
+}
+
+
+
+ul.playlist {
+    list-style: none;
+    display: grid;
+    margin-left: 200px;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+
+.playlist li {
+    background-color: black;
+    border-radius: 50px;
+    margin: 10px;
+    height: 50px;
+    color: wheat;
+}
+
+
+
+.A {
+    color: #fff;
+    margin-top: 200px;
+    text-align: center;
+}

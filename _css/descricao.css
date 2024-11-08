@@ -1,0 +1,191 @@
+/*Fontes para o site*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+
+.descricao {
+    margin-top: 200px;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Bungee';
+    text-align: center;
+}
+
+h2 {
+    color: #7c7c7c;
+    text-align: center;
+    font-family: 'Bad Script';
+    font-size: 25pt;
+}
+
+p {
+    color: #fff;
+    font-family: 'Lemonada';
+    margin-left: 100px;
+}
+
+ul {
+    background-color: #fff;
+    list-style: none;
+    margin: -10px;
+}
+
+ul.menu-descricao li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 15pt;
+}
+
+.menu-descricao li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.letra-musica {
+    margin-top: 50px;
+}
+
+.foto-album img {
+    width: 20%;
+    float: right;
+    margin-top: -2200px ;
+    margin-right: 200px;
+}
+.foto-album p {
+    float: right;
+    margin-top: -1900px ;
+    margin-right: 200px;
+}
+.foto-album2 img {
+    width: 20%;
+    float: right;
+    margin-top: -1900px ;
+    margin-right: 200px;
+}
+.foto-album2 p {
+    float: right;
+    margin-top: -1600px ;
+    margin-right: 160px;
+}
+
+.letra-musica2 {
+    width: 500px;
+}
+
+.foto-album3 img {
+    width: 20%;
+    float: right;
+    margin-top: -5700px;
+    margin-right: 200px;
+}
+.foto-album3 p {
+    float: right;
+    margin-top: -5400px ;
+    margin-right: 190px;
+}
+.foto-album4 img {
+    width: 20%;
+    float: right;
+    margin-top: -2900px;
+    margin-right: 200px;
+}
+.foto-album4 p {
+    float: right;
+    margin-top: -2600px ;
+    margin-right: 190px;
+}
+
+.foto-album5 img {
+    width: 20%;
+    float: right;
+    margin-top: -2200px;
+    margin-right: 200px;
+}
+.foto-album5 p {
+    float: right;
+    margin-top: -1900px ;
+    margin-right: 250px;
+}
+
+.foto-album6 img {
+    width: 20%;
+    float: right;
+    margin-top: -4200px;
+    margin-right: 200px;
+}
+.foto-album6 p {
+    float: right;
+    margin-top: -3900px ;
+    margin-right: 250px;
+}
+
+.foto-album9 img {
+    width: 20%;
+    float: right;
+    margin-top: -2500px;
+    margin-right: 200px;
+}
+.foto-album9 p {
+    float: right;
+    margin-top: -2200px ;
+    margin-right: 250px;
+}
+
+.foto-album10 img {
+    width: 20%;
+    float: right;
+    margin-top: -1300px;
+    margin-right: 200px;
+}
+.foto-album10 p {
+    float: right;
+    margin-top: -1000px ;
+    margin-right: 200px;
+}
+
+.audio1 {
+    float: right;
+    margin-top: -1850px ;
+    margin-right: 170px;
+}
+
+.audio2 {
+    float: right;
+    margin-top: -5350px ;
+    margin-right: 170px;
+}
+
+.audio4 {
+    float: right;
+    margin-top: -2550px ;
+    margin-right: 170px;
+}
+
+.audio5 {
+    float: right;
+    margin-top: -1850px ;
+    margin-right: 170px;
+}
+
+.audio6 {
+    float: right;
+    margin-top: -3850px ;
+    margin-right: 170px;
+}
+
+.audio9 {
+    float: right;
+    margin-top: -2150px ;
+    margin-right: 170px;
+}
+.audio10 {
+    float: right;
+    margin-top: -950px ;
+    margin-right: 170px;
+}
+
+.paragrafo-significado {
+    width: 900px;
+    margin-left: 200px;
+}
