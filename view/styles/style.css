@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*letras importadas*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden ;
+}
+
+body {
+    background-color: #2e2a43;
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+header {
+    width: 100%;
+    padding: 50px;
+    position: fixed;
+    transition: .3s;
+}
+
+header.rolagem {
+    background-color: #1a2a4f80;
+    backdrop-filter: blur(2px);
+    color: #FFF2EF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2EF;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+a.menu:hover {
+    background-color: #FFF2EF;
+    color: #000;
+    transition: .3s;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    text-transform: capitalize;
+    background: #F7A5A5;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    color: #F7A5A5;
+    background-color: #FFF2EF;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(../images/cat-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    margin-top: -20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section h1 {
+    font-size: 30pt;
+    font-family: 'Bungee';
+    color: rgb(11, 11, 11);
+}
+
+section span {
+    color: rgb(255, 255, 255);
+}
+
+.conteudo {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 30px 0;
+}
+
+.conteudo h1 {
+    font-size: 20pt;
+    color: #FFF2EF;
+}
+
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    padding: 50px;
+    font-size: 15pt;
+}
+
+footer {
+    background-color: #131f3a;
+    color: #ffffff;
+    font-size: 10pt;
+    padding: 30px;
+    text-align: center;
+}

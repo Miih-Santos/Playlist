@@ -1,0 +1,119 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+
+/* Reset do cabeçalho fixo */
+#cabecalho,
+#cabecalho nav,
+#cabecalho .logo,
+#cabecalho .menu {
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  z-index: auto !important;
+  width: auto !important;
+}
+
+body {
+  padding-top: 0 !important;
+}
+
+/* Tipografia */
+h1 {
+  color: #fff;
+  font-family: 'Bungee';
+  text-align: center;
+}
+
+h2 {
+  color: #7c7c7c;
+  text-align: center;
+  font-family: 'Bad Script';
+  font-size: 25pt;
+}
+
+p {
+  color: #fff;
+  font-family: 'Lemonada';
+  margin-left: 100px;
+}
+
+/* Menu de descrição */
+.menu-descricao {
+  background-color: #fff;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.menu-descricao li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Classes base para fotos de álbum */
+.foto-album img,
+.foto-album2 img,
+.foto-album3 img,
+.foto-album4 img,
+.foto-album5 img,
+.foto-album6 img,
+.foto-album9 img,
+.foto-album10 img {
+  width: 20%;
+  float: right;
+  margin-right: 200px;
+}
+
+/* Posicionamento específico das fotos */
+.foto-album img { margin-top: -2100px; }
+.foto-album2 img { margin-top: -1900px; }
+.foto-album3 img { margin-top: -5700px; }
+.foto-album4 img { margin-top: -2900px; }
+.foto-album5 img { margin-top: -2200px; }
+.foto-album6 img { margin-top: -4200px; }
+.foto-album9 img { margin-top: -2500px; }
+.foto-album10 img { margin-top: -1300px; }
+
+/* Base para textos das fotos */
+[class^="foto-album"] p {
+  float: right;
+  margin-right: 200px;
+}
+
+/* Posicionamento específico dos textos */
+.foto-album p { margin-top: -1800px; }
+.foto-album2 p { margin-top: -1600px; margin-right: 160px; }
+.foto-album3 p { margin-top: -5400px; margin-right: 190px; }
+.foto-album4 p { margin-top: -2600px; margin-right: 190px; }
+.foto-album5 p { margin-top: -1900px; margin-right: 250px; }
+.foto-album6 p { margin-top: -3900px; margin-right: 250px; }
+.foto-album9 p { margin-top: -2200px; margin-right: 250px; }
+.foto-album10 p { margin-top: -1000px; }
+
+/* Base para elementos de áudio */
+[class^="audio"] {
+  float: right;
+  margin-right: 170px;
+}
+
+/* Posicionamento específico dos áudios */
+.audio1 { margin-top: -1750px; }
+.audio2 { margin-top: -5350px; }
+.audio4 { margin-top: -2550px; }
+.audio5 { margin-top: -1850px; }
+.audio6 { margin-top: -3850px; }
+.audio9 { margin-top: -2150px; }
+.audio10 { margin-top: -950px; }
+
+.paragrafo-significado {
+  width: 900px;
+  margin-left: 200px;
+}
+
+.letra-musica{
+    margin-top: 20px;
+}
